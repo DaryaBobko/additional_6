@@ -30,12 +30,13 @@ module.exports = function zeros(expression) {
   i--;
  }
  return zerosCount;
-}
 
-function factorial(number, start, inc){
+ function factorial(number, start, inc){
   var result = bigInt(1);
   for (var i = start; i <= number; i += inc){
     result = result.multiply(i);
   }
   return result;
 }
+}
+
